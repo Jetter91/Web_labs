@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lab1</title>
+</head>
+<body>
+    <script type="text/javascript">
+        const polynomial = prompt("Enter expression:");
+
+        const apiUrl = `https://newton.vercel.app/api/v2/factor/${polynomial}`;
+
+        fetch(apiUrl)
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            alert(data.result);
+        })
+        .catch(error => {
+            alert(error);
+        });
+    </script>
+</body>
+</html>
