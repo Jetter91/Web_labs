@@ -1,0 +1,93 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    text-align: center;
+    margin: 0 0 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.bloc1 {
+    width: 30vw;
+    height: 80vh;
+    display: inline-block;
+    margin-right: 3vw;
+    padding-top: 5vh;   
+}
+.bloc1 h1{
+    font-size: calc(2vh + 2vw);
+}
+.bloc1 h2{
+    font-size: calc(0.7vh + 0.7vw);
+    line-height: 2;
+    font-family: 'Helvetica Light', sans-serif;
+    font-weight: lighter;
+}
+.bloc1 h3{
+    font-size: calc(0.8vh + 0.8vw);
+    line-height: 2;
+    font-family: 'Helvetica Light', sans-serif;
+    font-weight: lighter;
+}
+.bloc1 h4{
+    font-size: calc(0.8vh + 0.8vw);
+    line-height: 2;
+    font-family: 'Helvetica Light', sans-serif;
+    font-weight: lighter;
+}
+.bloc2{
+    display: inline-block;
+    background-color: rgb(85, 85, 252);
+    width: 20vw;
+    height: 70vh;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Helvetica Light', sans-serif;
+}
+.bloc2 h1{
+    font-size: calc(1vh + 1vw);
+    font-weight: lighter;
+}
+.bloc2 h2{
+    margin-top: 4vh;
+    font-size: calc(0.5vh + 0.5vw);
+    font-weight: lighter;
+}
+.bloc2 h3{
+    font-size: calc(0.7vh + 0.7vw);
+    font-weight: lighter;
+}
+.btnWrap{
+    padding-top: 15vh;
+    display: block;
+}
+button{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    font-size: calc(0.7vh + 0.7vw);
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+}
+.btnR{
+    color: blue;
+    border-color: blue;
+}
+.btnP{
+    color: orange;
+    border-color: orange;
+}
+.btnC{
+    color: rgb(208, 70, 208);
+    border-color: rgb(208, 70, 208);
+}
